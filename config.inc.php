@@ -38,7 +38,7 @@ $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
   'host' => 'containers-us-west-135.railway.app',
   'user' => 'root',
-  'password' => 'L0NYx1LakL7GCQQArmzB',
+  'password' => 'tLBvFo9pU8qKNlEgzB9D',
   'charset' => 'utf8mb4',
   'port' => '7753',
   'database' => 'railway',

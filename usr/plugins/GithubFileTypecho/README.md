@@ -1,4 +1,4 @@
-# TypechoUpGithub
+# UploadGithubForTypecho
 本插件用于将文章附件上传至Github，并使用jsDelivr进行文件访问加速。
 
 ## 插件说明
@@ -6,22 +6,21 @@
 本插件用于将文章附件上传至Github的仓库中，在添加图片进入文章时会替换链接为jsDelivr的地址。<br>
 jsDelivr为融合CDN，在全球分布750余节点（包括中国），并Github仓库文件提供免费的访问加速服务。<br>
 本插件利用此服务来加速文章附件（图片等）访问速度。
-关于jsDelivr运用于博客的优势本文不再赘述，具体请[访问这里](https://www.jsdelivr.com/?docs=gh "访问这里")。<br>
+关于jsDelivr运用于博客的优势本文不再赘述，具体请[访问这里](https://qwq.best/dev/113.html "访问这里")。<br>
 
 ## 最新版本
-1.0.0 - 2022.08.05
+1.1.1 - 2021.09.26
 
 更新内容：
 
 ```txt
 修改API调用格式, 修复无法上传到GitHub的问题
-增加成功上传Github的外链文件/log/img.txt
 ```
 
 ## 安装插件
-项目地址：<https://github.com/zhoudedi/TypechoUpGithub><br>
-[点击这里直接下载](https://github.com/zhoudedi/TypechoUpGithub/archive/main.zip "点击这里直接下载")<br>
-解压至插件目录并将文件夹重命名为“TypechoUpGithub”
+项目地址：<https://github.com/AyagawaSeirin/UploadGithubForTypecho><br>
+[点击这里直接下载](https://github.com/AyagawaSeirin/UploadGithubForTypecho/archive/master.zip "点击这里直接下载")<br>
+解压至插件目录并将文件夹重命名为“UploadGithubForTypecho”
 
 ## 注意事项
 请先在Github创建一个**公开**的仓库。
@@ -31,7 +30,7 @@ jsDelivr为融合CDN，在全球分布750余节点（包括中国），并Github
 需要设置的内容：<br>
 Github用户名：必填，您的Github用户名。<br>
 Github仓库名：必填，您用于储存附件文件的仓库名称。<br>
-Github账号token：必填，您的Github账号的token，不知道如何获取账号token请[点击这里](https://zhuanlan.zhihu.com/p/550294543 "点击这里")。<br>
+Github账号token：必填，您的Github账号的token，不知道如何获取账号token请[点击这里](https://qwq.best/dev/151.html "点击这里")。<br>
 Github仓库内的上传目录：必填，附件上传到的仓库内目录位置。如果您不知道如何填写，建议保持默认内容。<br>
 文件链接访问方式：建议选择"访问最新版本"。若修改图片，直接访问方式不方便更新缓存。<br>
 是否保存在本地：是否将文件保存到本地<br>

@@ -1,3 +1,4 @@
 # typecho
 
 redeploy
+redeploy

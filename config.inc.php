@@ -36,12 +36,12 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'containers-us-west-135.railway.app',
-  'user' => 'root',
-  'password' => 'tLBvFo9pU8qKNlEgzB9D',
+  'host' => 'mysql.sqlpub.com',
+  'user' => 'naya2016',
+  'password' => 'f5ececdd1712c396',
   'charset' => 'utf8mb4',
-  'port' => '7753',
-  'database' => 'railway',
+  'port' => '3306',
+  'database' => 'verceltypecho',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
